@@ -1,0 +1,16 @@
+{
+  "status": "running",
+  "pid": 3752895,
+  "mode": "contextual",
+  "seed": 20260715,
+  "target_epochs": 1,
+  "threads": 8,
+  "init_time_limit": 5.0,
+  "time_limit_multiplier": 3.0,
+  "max_time_limit": 5.0,
+  "time_limit_bias": 0.0,
+  "max_actions": 7,
+  "host": "admin",
+  "platform": "Linux-6.8.0-48-generic-x86_64-with-glibc2.35",
+  "started_at_unix": 1784090183.815038
+}

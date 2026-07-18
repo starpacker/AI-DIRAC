@@ -1,0 +1,6663 @@
+{
+  "baseline": {
+    "epochs_observed": 704,
+    "first_epoch": 1,
+    "last_epoch": 704,
+    "successes": 227,
+    "timeouts_or_errors": 477,
+    "success_rate": 0.3224431818181818,
+    "analysis_seconds_observed": 31502.975142002106,
+    "mean_analysis_seconds": 136.9694571391396,
+    "median_analysis_seconds": 27.630988717079163,
+    "total_reward_observed": 776.0,
+    "mean_reward": 3.3162393162393164,
+    "experiment_counts": {
+      "motion0": 31,
+      "pendulum_oscillation_1": 26,
+      "free_fall": 32,
+      "vertical_projectile": 32,
+      "celestial_2_xz": 14,
+      "motion0y": 36,
+      "gravity": 24,
+      "oscillationy": 15,
+      "motion0_3d": 31,
+      "oblique_projectile": 18,
+      "projectile": 30,
+      "celestial_3": 18,
+      "celestial_2_xy": 13,
+      "oblique_projectile_y": 33,
+      "collision_nh": 14,
+      "collision": 18,
+      "collision_elastic_3body": 20,
+      "oblique_projectile_x": 26,
+      "stringmotion0": 32,
+      "hanging_spring_1": 14,
+      "collision_y": 23,
+      "oscillation_rot_1": 26,
+      "collision_2d": 12,
+      "celestial_2_yz": 26,
+      "oscillation": 24,
+      "oscillation_2d_1": 12,
+      "pendulum_oscillation_2": 6,
+      "motiony": 25,
+      "slope_oscillation_1": 14,
+      "projectile_oscillation_1": 6,
+      "motion_3d": 14,
+      "motion": 15,
+      "oscillation_x_1": 6,
+      "hanging_spring_2": 6,
+      "oscillation_2d_2": 6,
+      "oscillation_rot_2": 6
+    },
+    "records": [
+      {
+        "epoch": 1,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.86399245262146,
+        "reward": 4.0,
+        "new_concepts": 2,
+        "new_laws": 1
+      },
+      {
+        "epoch": 2,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.296230792999268,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 3,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 4,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 5,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 6,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 7,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 1.96380615234375,
+        "reward": 2.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 8,
+        "experiment": "oscillationy",
+        "outcome": "success",
+        "duration_seconds": 1.9189035892486572,
+        "reward": 4.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 9,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 10,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 11,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 12,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 13,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 14,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 15,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 16,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 17,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 18,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 19,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 0.5165421962738037,
+        "reward": 2.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 20,
+        "experiment": "hanging_spring_1",
+        "outcome": "success",
+        "duration_seconds": 4.527047157287598,
+        "reward": 6.0,
+        "new_concepts": 6,
+        "new_laws": 0
+      },
+      {
+        "epoch": 21,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 22,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.938366174697876,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 23,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 24,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 9.008906126022339,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 25,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 26,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 27,
+        "experiment": "oscillationy",
+        "outcome": "success",
+        "duration_seconds": 4.896026134490967,
+        "reward": 7.0,
+        "new_concepts": 5,
+        "new_laws": 0
+      },
+      {
+        "epoch": 28,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 29,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 2.0623512268066406,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 30,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.6550559997558594,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 31,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 32,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.919452428817749,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 33,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.557305097579956,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 34,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 35,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 36,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 37,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 38,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 39,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 40,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 41,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 42,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 43,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 44,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 45,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 46,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 47,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 48,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 49,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 50,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 51,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.921816825866699,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 52,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 4.214697360992432,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 53,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 54,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 55,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.145755529403687,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 56,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 57,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.8793361186981201,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 58,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5809710025787354,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 59,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 60,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 61,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 62,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 63,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 64,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 65,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 66,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 67,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 68,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 69,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 70,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 71,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 72,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 73,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.803883790969849,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 74,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.8068597316741943,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 75,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 76,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 77,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.1468346118927,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 78,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 79,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 80,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 81,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 82,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 83,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 84,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 85,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 86,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 87,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 88,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 89,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 90,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 91,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 92,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 93,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 94,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 95,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 96,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.649254322052002,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 97,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.7513175010681152,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 98,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 99,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 100,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.311192750930786,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 101,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 102,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.8710849285125732,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 103,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5453155040740967,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 104,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 105,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 106,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 107,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 108,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 109,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 110,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 111,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 112,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 113,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 114,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 115,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 116,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 117,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 118,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 119,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 120,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.3759706020355225,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 121,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.720273971557617,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 122,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 123,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 124,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 7.798750877380371,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 125,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 126,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 127,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.5133674144744873,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 128,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.2577362060546875,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 129,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 130,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 131,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 132,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 133,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 134,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 135,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 136,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 137,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 138,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 139,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 140,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 141,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 142,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 143,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 144,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 145,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.7492289543151855,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 146,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.791916847229004,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 147,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 148,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 149,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.148241996765137,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 150,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": 1.6908562183380127,
+        "reward": 0.0,
+        "new_concepts": 31,
+        "new_laws": 0
+      },
+      {
+        "epoch": 151,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 4.25192403793335,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 152,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.18185830116272,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 153,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.590996503829956,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 154,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.491131067276001,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 155,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.7493231296539307,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 156,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.7339706420898438,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 157,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5340747833251953,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 158,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.073257684707642,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 159,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.6976757049560547,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 160,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.024337768554688,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 161,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.7756826877593994,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 162,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5563833713531494,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 163,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.1644675731658936,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 164,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.814112663269043,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 165,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.08860969543457,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 166,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.7465605735778809,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 167,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.550555944442749,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 168,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.298402309417725,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 169,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.6130146980285645,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 170,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.217532634735107,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 171,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.794130802154541,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 172,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5332887172698975,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 173,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.379514694213867,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 174,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.849435329437256,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 175,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 8.095691204071045,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 176,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 1.7410216331481934,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 177,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5585353374481201,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 178,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 6.517889738082886,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 179,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 3.763749361038208,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 180,
+        "experiment": "celestial_2_yz",
+        "outcome": "success",
+        "duration_seconds": 1.8061425685882568,
+        "reward": 0.0,
+        "new_concepts": 68,
+        "new_laws": 22
+      },
+      {
+        "epoch": 181,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 2.1777687072753906,
+        "reward": 4.0,
+        "new_concepts": 4,
+        "new_laws": 2
+      },
+      {
+        "epoch": 182,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.7286534309387207,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 183,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 32.21692109107971,
+        "reward": 6.0,
+        "new_concepts": 1,
+        "new_laws": 1
+      },
+      {
+        "epoch": 184,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 35.52133774757385,
+        "reward": 8.0,
+        "new_concepts": 2,
+        "new_laws": 1
+      },
+      {
+        "epoch": 185,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 186,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 32.19042706489563,
+        "reward": 5.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 187,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 188,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 189,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 18,
+        "new_laws": 18
+      },
+      {
+        "epoch": 190,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 44.35023641586304,
+        "reward": 15.0,
+        "new_concepts": 8,
+        "new_laws": 8
+      },
+      {
+        "epoch": 191,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 41.10043430328369,
+        "reward": 5.0,
+        "new_concepts": 4,
+        "new_laws": 4
+      },
+      {
+        "epoch": 192,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 193,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 194,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 195,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 196,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 197,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 198,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 40.72826409339905,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 199,
+        "experiment": "collision",
+        "outcome": "success",
+        "duration_seconds": 48.42491674423218,
+        "reward": 15.0,
+        "new_concepts": 2,
+        "new_laws": 1
+      },
+      {
+        "epoch": 200,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 42.10482597351074,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 201,
+        "experiment": "collision_elastic_3body",
+        "outcome": "success",
+        "duration_seconds": 25.05626130104065,
+        "reward": 15.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 202,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 203,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 204,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 205,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 206,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 12.72616171836853,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 207,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 208,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 209,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 210,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 211,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 43.06135892868042,
+        "reward": 6.0,
+        "new_concepts": 0,
+        "new_laws": 3
+      },
+      {
+        "epoch": 212,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 12.462955236434937,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 213,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 11.657610416412354,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 214,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 8.0,
+        "new_concepts": 5,
+        "new_laws": 5
+      },
+      {
+        "epoch": 215,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 216,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 39.80516695976257,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 217,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 218,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 219,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 220,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 10.341574430465698,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 221,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 10.098461389541626,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 222,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 46.594316720962524,
+        "reward": 3.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 223,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 18.246185541152954,
+        "reward": 4.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 224,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 18.356724739074707,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 225,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 18.50470733642578,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 226,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 12.232430934906006,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 227,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 42.70563745498657,
+        "reward": 2.0,
+        "new_concepts": 2,
+        "new_laws": 2
+      },
+      {
+        "epoch": 228,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 4,
+        "new_laws": 4
+      },
+      {
+        "epoch": 229,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 48.87246251106262,
+        "reward": 15.0,
+        "new_concepts": 5,
+        "new_laws": 8
+      },
+      {
+        "epoch": 230,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 231,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 232,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 23.819356203079224,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 233,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 22.505502223968506,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 234,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 235,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 236,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 237,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 238,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.5302302837371826,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 239,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 240,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 241,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 242,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 243,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 244,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 245,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 246,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 247,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 248,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 249,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 250,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 251,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 252,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 253,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 254,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 255,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 24.505383491516113,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 256,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 257,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.518733024597168,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 258,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 259,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 260,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 261,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 262,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 263,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 264,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 265,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 266,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 267,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 268,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 269,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 270,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 271,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 272,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 273,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 27.49639582633972,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 274,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 19.790067672729492,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 275,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 18.241076231002808,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 276,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 277,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.4280540943145752,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 278,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 279,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 280,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 35.7517364025116,
+        "reward": 2.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 281,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 16.133048057556152,
+        "reward": 8.0,
+        "new_concepts": 5,
+        "new_laws": 0
+      },
+      {
+        "epoch": 282,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 20.08088994026184,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 283,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 20.03582191467285,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 284,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 12.941406726837158,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 285,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 15,
+        "new_laws": 11
+      },
+      {
+        "epoch": 286,
+        "experiment": "projectile",
+        "outcome": "success",
+        "duration_seconds": 49.24215269088745,
+        "reward": 18.0,
+        "new_concepts": 2,
+        "new_laws": 9
+      },
+      {
+        "epoch": 287,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 288,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 289,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 290,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 291,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 292,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 15.601675987243652,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 293,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "success",
+        "duration_seconds": 43.02396821975708,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 294,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 295,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 296,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 297,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 298,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 299,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 300,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 301,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 302,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 3,
+        "new_laws": 3
+      },
+      {
+        "epoch": 303,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 4.471368074417114,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 304,
+        "experiment": "oscillation",
+        "outcome": "success",
+        "duration_seconds": 15.821971893310547,
+        "reward": 8.0,
+        "new_concepts": 5,
+        "new_laws": 0
+      },
+      {
+        "epoch": 305,
+        "experiment": "oscillation",
+        "outcome": "success",
+        "duration_seconds": 32.23924732208252,
+        "reward": 7.0,
+        "new_concepts": 5,
+        "new_laws": 0
+      },
+      {
+        "epoch": 306,
+        "experiment": "oscillation",
+        "outcome": "success",
+        "duration_seconds": 28.227412223815918,
+        "reward": 2.0,
+        "new_concepts": 2,
+        "new_laws": 0
+      },
+      {
+        "epoch": 307,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 7.0,
+        "new_concepts": 7,
+        "new_laws": 0
+      },
+      {
+        "epoch": 308,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 309,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.9163517951965332,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 310,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 311,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 312,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 313,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 314,
+        "experiment": "oblique_projectile_x",
+        "outcome": "success",
+        "duration_seconds": 37.7208731174469,
+        "reward": 9.0,
+        "new_concepts": 2,
+        "new_laws": 5
+      },
+      {
+        "epoch": 315,
+        "experiment": "oblique_projectile_x",
+        "outcome": "success",
+        "duration_seconds": 36.45996904373169,
+        "reward": 2.0,
+        "new_concepts": 0,
+        "new_laws": 2
+      },
+      {
+        "epoch": 316,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 317,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 318,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 319,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 320,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 321,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 322,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 323,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 324,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 325,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 326,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 327,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 33.08989477157593,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 328,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 34.445887327194214,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 329,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 330,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 331,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 332,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 27.765581607818604,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 333,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.7982850074768066,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 334,
+        "experiment": "collision_2d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 335,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 336,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 337,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 338,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 339,
+        "experiment": "pendulum_oscillation_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 340,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 341,
+        "experiment": "projectile_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 342,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 343,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 344,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 345,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 346,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": 55.498188495635986,
+        "reward": 5.0,
+        "new_concepts": 102,
+        "new_laws": 75
+      },
+      {
+        "epoch": 347,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 91.8469398021698,
+        "reward": 35.0,
+        "new_concepts": 19,
+        "new_laws": 14
+      },
+      {
+        "epoch": 348,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 349,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 350,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 106.68530535697937,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 351,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 352,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.8098812103271484,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 353,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 354,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 355,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 112.85637998580933,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 356,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 357,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 115.42500925064087,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 358,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 359,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 360,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 361,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 362,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 363,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 364,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 365,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 366,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 367,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 368,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 129.51113033294678,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 369,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 129.1568386554718,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 370,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 371,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.8056268692016602,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 372,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 128.27675414085388,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 373,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 374,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 375,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 376,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 377,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 378,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 379,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 380,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 381,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 382,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 383,
+        "experiment": "motion",
+        "outcome": "success",
+        "duration_seconds": 131.79450058937073,
+        "reward": 9.0,
+        "new_concepts": 3,
+        "new_laws": 3
+      },
+      {
+        "epoch": 384,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 385,
+        "experiment": "motion",
+        "outcome": "success",
+        "duration_seconds": 130.7221462726593,
+        "reward": 7.0,
+        "new_concepts": 6,
+        "new_laws": 2
+      },
+      {
+        "epoch": 386,
+        "experiment": "motion",
+        "outcome": "success",
+        "duration_seconds": 63.08010745048523,
+        "reward": 6.0,
+        "new_concepts": 6,
+        "new_laws": 3
+      },
+      {
+        "epoch": 387,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 388,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 389,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 16.275150537490845,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 390,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 15.940677404403687,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 391,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 392,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.1894593238830566,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 393,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 16.74564003944397,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 394,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 2
+      },
+      {
+        "epoch": 395,
+        "experiment": "collision_elastic_3body",
+        "outcome": "success",
+        "duration_seconds": 21.702972173690796,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 396,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 22.739278554916382,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 397,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 398,
+        "experiment": "collision_y",
+        "outcome": "success",
+        "duration_seconds": 58.26911520957947,
+        "reward": 11.0,
+        "new_concepts": 11,
+        "new_laws": 5
+      },
+      {
+        "epoch": 399,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 400,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 401,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 402,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 403,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 404,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 129.54509353637695,
+        "reward": 14.0,
+        "new_concepts": 8,
+        "new_laws": 11
+      },
+      {
+        "epoch": 405,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 406,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 407,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 408,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 409,
+        "experiment": "celestial_2_xy",
+        "outcome": "success",
+        "duration_seconds": 125.35728979110718,
+        "reward": 8.0,
+        "new_concepts": 6,
+        "new_laws": 0
+      },
+      {
+        "epoch": 410,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 411,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 412,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 413,
+        "experiment": "celestial_2_xy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 5,
+        "new_laws": 0
+      },
+      {
+        "epoch": 414,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 72.36745691299438,
+        "reward": 14.0,
+        "new_concepts": 5,
+        "new_laws": 9
+      },
+      {
+        "epoch": 415,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 44.2435519695282,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 416,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 72.85137963294983,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 417,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 86.04142570495605,
+        "reward": 10.0,
+        "new_concepts": 5,
+        "new_laws": 5
+      },
+      {
+        "epoch": 418,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 62.81822991371155,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 419,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 62.53539514541626,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 420,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 46.95498728752136,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 421,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 139.89420771598816,
+        "reward": 3.0,
+        "new_concepts": 2,
+        "new_laws": 3
+      },
+      {
+        "epoch": 422,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 423,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 71.15967965126038,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 424,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 425,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.6368682384490967,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 426,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 89.87868237495422,
+        "reward": 10.0,
+        "new_concepts": 0,
+        "new_laws": 10
+      },
+      {
+        "epoch": 427,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 85.99311971664429,
+        "reward": 5.0,
+        "new_concepts": 0,
+        "new_laws": 4
+      },
+      {
+        "epoch": 428,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 85.9341893196106,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 429,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 68.18748164176941,
+        "reward": 9.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 430,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 65.88079524040222,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 431,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 65.84540057182312,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 432,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 433,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 434,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 435,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 436,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 23.0,
+        "new_concepts": 22,
+        "new_laws": 21
+      },
+      {
+        "epoch": 437,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 7,
+        "new_laws": 9
+      },
+      {
+        "epoch": 438,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 439,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 440,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 138.69095420837402,
+        "reward": 11.0,
+        "new_concepts": 5,
+        "new_laws": 3
+      },
+      {
+        "epoch": 441,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 442,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 443,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 444,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 132.8753571510315,
+        "reward": 8.0,
+        "new_concepts": 8,
+        "new_laws": 2
+      },
+      {
+        "epoch": 445,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 446,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 447,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 64.7194573879242,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 448,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.535309076309204,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 449,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 450,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 451,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 452,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 453,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 454,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 455,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 456,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 80.4197986125946,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 457,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 80.58930373191833,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 458,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 459,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 64.82860732078552,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 460,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.5896682739257812,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 461,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 462,
+        "experiment": "collision_elastic_3body",
+        "outcome": "success",
+        "duration_seconds": 99.99159550666809,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 463,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 464,
+        "experiment": "oblique_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 465,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 466,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 8,
+        "new_laws": 9
+      },
+      {
+        "epoch": 467,
+        "experiment": "celestial_3",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 468,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 469,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 470,
+        "experiment": "celestial_2_xy",
+        "outcome": "success",
+        "duration_seconds": 221.55355954170227,
+        "reward": 5.0,
+        "new_concepts": 125,
+        "new_laws": 44
+      },
+      {
+        "epoch": 471,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 472,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 146.64175724983215,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 473,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 38,
+        "new_laws": 0
+      },
+      {
+        "epoch": 474,
+        "experiment": "oscillation_2d_2",
+        "outcome": "success",
+        "duration_seconds": 357.1373975276947,
+        "reward": 6.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 475,
+        "experiment": "hanging_spring_1",
+        "outcome": "success",
+        "duration_seconds": 153.298579454422,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 476,
+        "experiment": "collision",
+        "outcome": "success",
+        "duration_seconds": 137.5250952243805,
+        "reward": 10.0,
+        "new_concepts": 6,
+        "new_laws": 2
+      },
+      {
+        "epoch": 477,
+        "experiment": "oscillationy",
+        "outcome": "success",
+        "duration_seconds": 162.72973227500916,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 478,
+        "experiment": "slope_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 288.9392693042755,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 479,
+        "experiment": "celestial_2_xz",
+        "outcome": "success",
+        "duration_seconds": 240.07797956466675,
+        "reward": 71.0,
+        "new_concepts": 43,
+        "new_laws": 0
+      },
+      {
+        "epoch": 480,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 73.60604119300842,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 481,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "success",
+        "duration_seconds": 189.44756937026978,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 482,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 89.10733842849731,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 483,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 342.1984579563141,
+        "reward": 6.0,
+        "new_concepts": 6,
+        "new_laws": 3
+      },
+      {
+        "epoch": 484,
+        "experiment": "motion_3d",
+        "outcome": "success",
+        "duration_seconds": 271.33714962005615,
+        "reward": 8.0,
+        "new_concepts": 5,
+        "new_laws": 1
+      },
+      {
+        "epoch": 485,
+        "experiment": "oblique_projectile_x",
+        "outcome": "success",
+        "duration_seconds": 156.3904173374176,
+        "reward": 16.0,
+        "new_concepts": 10,
+        "new_laws": 15
+      },
+      {
+        "epoch": 486,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 257.71802735328674,
+        "reward": 22.0,
+        "new_concepts": 10,
+        "new_laws": 12
+      },
+      {
+        "epoch": 487,
+        "experiment": "oscillation_rot_1",
+        "outcome": "success",
+        "duration_seconds": 363.40601873397827,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 488,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 489,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 490,
+        "experiment": "projectile",
+        "outcome": "success",
+        "duration_seconds": 352.30185437202454,
+        "reward": 19.0,
+        "new_concepts": 1,
+        "new_laws": 9
+      },
+      {
+        "epoch": 491,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 492,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 22.0,
+        "new_concepts": 16,
+        "new_laws": 0
+      },
+      {
+        "epoch": 493,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.200430154800415,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 494,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 37,
+        "new_laws": 42
+      },
+      {
+        "epoch": 495,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 496,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 497,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 498,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 279.1386501789093,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 499,
+        "experiment": "projectile",
+        "outcome": "success",
+        "duration_seconds": 408.9419836997986,
+        "reward": 16.0,
+        "new_concepts": 0,
+        "new_laws": 13
+      },
+      {
+        "epoch": 500,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 501,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 502,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 503,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 504,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 505,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 506,
+        "experiment": "oscillation_2d_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 507,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 315.1982502937317,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 508,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 509,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 510,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 511,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 512,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 513,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 514,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 515,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 516,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 517,
+        "experiment": "oscillation_2d_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 518,
+        "experiment": "motion0_3d",
+        "outcome": "success",
+        "duration_seconds": 404.89116621017456,
+        "reward": 10.0,
+        "new_concepts": 5,
+        "new_laws": 5
+      },
+      {
+        "epoch": 519,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 520,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 521,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 522,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 523,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 524,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 525,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 526,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 527,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 528,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 258.61924862861633,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 529,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 358.7909297943115,
+        "reward": 6.0,
+        "new_concepts": 0,
+        "new_laws": 5
+      },
+      {
+        "epoch": 530,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 318.6002471446991,
+        "reward": 5.0,
+        "new_concepts": 0,
+        "new_laws": 4
+      },
+      {
+        "epoch": 531,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 326.85710525512695,
+        "reward": 6.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 532,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 330.174861907959,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 533,
+        "experiment": "motion0",
+        "outcome": "success",
+        "duration_seconds": 314.8611161708832,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 534,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.2814247608184814,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 535,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 536,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 537,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 538,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 539,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 540,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 541,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 542,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 543,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 544,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 545,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 546,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 547,
+        "experiment": "motion0",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 548,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 549,
+        "experiment": "oscillation_2d_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 550,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 551,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 552,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 553,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.5181801319122314,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 554,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 555,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 556,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 557,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 558,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 559,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 560,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 561,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 562,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 563,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 564,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 565,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 566,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 567,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 568,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 569,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 570,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 571,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 572,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.4749913215637207,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 573,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 574,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 575,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 576,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 577,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 578,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 579,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 580,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 581,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 582,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 583,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 584,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 585,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 586,
+        "experiment": "motiony",
+        "outcome": "success",
+        "duration_seconds": 352.9534914493561,
+        "reward": 3.0,
+        "new_concepts": 3,
+        "new_laws": 1
+      },
+      {
+        "epoch": 587,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 588,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 589,
+        "experiment": "oscillation_2d_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 590,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 591,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 592,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 593,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 594,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 595,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 266.29174876213074,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 596,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 257.89961791038513,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 597,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 254.7003312110901,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 598,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 308.5399570465088,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 1
+      },
+      {
+        "epoch": 599,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 265.64354610443115,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 600,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.8885293006896973,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 601,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 602,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 603,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 409.2185904979706,
+        "reward": 12.0,
+        "new_concepts": 7,
+        "new_laws": 8
+      },
+      {
+        "epoch": 604,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 605,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 606,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 607,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 608,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 609,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 610,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 611,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 612,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 613,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 614,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 341.72939467430115,
+        "reward": 2.0,
+        "new_concepts": 2,
+        "new_laws": 2
+      },
+      {
+        "epoch": 615,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 331.7977030277252,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 616,
+        "experiment": "motion0y",
+        "outcome": "success",
+        "duration_seconds": 322.9777750968933,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 617,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 618,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 619,
+        "experiment": "oblique_projectile_x",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 620,
+        "experiment": "collision",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 621,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 622,
+        "experiment": "oscillation_2d_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 623,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 624,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 625,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 626,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 627,
+        "experiment": "motion",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 628,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.8012518882751465,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 629,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 630,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 631,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 632,
+        "experiment": "hanging_spring_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 633,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 634,
+        "experiment": "oscillation_x_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 635,
+        "experiment": "oscillation_2d_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 636,
+        "experiment": "oscillation_rot_2",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 637,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 638,
+        "experiment": "motiony",
+        "outcome": "timeout",
+        "duration_seconds": 1.9806809425354004,
+        "reward": 0.0,
+        "new_concepts": 92,
+        "new_laws": 92
+      },
+      {
+        "epoch": 639,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 640,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 641,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 642,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 643,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 644,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 645,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 646,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 647,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 648,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 649,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 650,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 651,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 652,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 653,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 654,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 655,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 656,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 657,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 3.5152554512023926,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 658,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 659,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 660,
+        "experiment": "oscillationy",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 661,
+        "experiment": "motion0y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 662,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 2.286588668823242,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 663,
+        "experiment": "motion0_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 664,
+        "experiment": "motion_3d",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 665,
+        "experiment": "collision_elastic_3body",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 666,
+        "experiment": "collision_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 667,
+        "experiment": "collision_nh",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 668,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 980.3578069210052,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 669,
+        "experiment": "gravity",
+        "outcome": "success",
+        "duration_seconds": 532.583978176117,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 670,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 513.1265773773193,
+        "reward": 18.0,
+        "new_concepts": 15,
+        "new_laws": 4
+      },
+      {
+        "epoch": 671,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 735.8754212856293,
+        "reward": 1.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 672,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 668.714362859726,
+        "reward": 2.0,
+        "new_concepts": 0,
+        "new_laws": 1
+      },
+      {
+        "epoch": 673,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 600.7597744464874,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 674,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 475.39439249038696,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 675,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 615.6693108081818,
+        "reward": 9.0,
+        "new_concepts": 5,
+        "new_laws": 6
+      },
+      {
+        "epoch": 676,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 776.6464371681213,
+        "reward": 13.0,
+        "new_concepts": 9,
+        "new_laws": 0
+      },
+      {
+        "epoch": 677,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 1108.892230272293,
+        "reward": 1.0,
+        "new_concepts": 1,
+        "new_laws": 0
+      },
+      {
+        "epoch": 678,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 805.1266396045685,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 679,
+        "experiment": "free_fall",
+        "outcome": "success",
+        "duration_seconds": 933.5845983028412,
+        "reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 680,
+        "experiment": "projectile",
+        "outcome": "success",
+        "duration_seconds": 1079.147007226944,
+        "reward": 29.0,
+        "new_concepts": 14,
+        "new_laws": 10
+      },
+      {
+        "epoch": 681,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 682,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 683,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 684,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 918.6516454219818,
+        "reward": 7.0,
+        "new_concepts": 1,
+        "new_laws": 7
+      },
+      {
+        "epoch": 685,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 1111.5695457458496,
+        "reward": 13.0,
+        "new_concepts": 6,
+        "new_laws": 8
+      },
+      {
+        "epoch": 686,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 687,
+        "experiment": "oblique_projectile_y",
+        "outcome": "success",
+        "duration_seconds": 1186.2277176380157,
+        "reward": 10.0,
+        "new_concepts": 3,
+        "new_laws": 7
+      },
+      {
+        "epoch": 688,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 689,
+        "experiment": "oblique_projectile_y",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 690,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 1018.5967547893524,
+        "reward": 5.0,
+        "new_concepts": 2,
+        "new_laws": 3
+      },
+      {
+        "epoch": 691,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 1029.13308095932,
+        "reward": 6.0,
+        "new_concepts": 3,
+        "new_laws": 6
+      },
+      {
+        "epoch": 692,
+        "experiment": "vertical_projectile",
+        "outcome": "success",
+        "duration_seconds": 1194.1721189022064,
+        "reward": 9.0,
+        "new_concepts": 7,
+        "new_laws": 8
+      },
+      {
+        "epoch": 693,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": 2.0,
+        "new_concepts": 1,
+        "new_laws": 2
+      },
+      {
+        "epoch": 694,
+        "experiment": "vertical_projectile",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 695,
+        "experiment": "hanging_spring_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 696,
+        "experiment": "pendulum_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 697,
+        "experiment": "slope_oscillation_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 698,
+        "experiment": "oscillation_rot_1",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 699,
+        "experiment": "celestial_2_xz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 700,
+        "experiment": "celestial_2_yz",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 701,
+        "experiment": "gravity",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 702,
+        "experiment": "free_fall",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 703,
+        "experiment": "oscillation",
+        "outcome": "timeout",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      },
+      {
+        "epoch": 704,
+        "experiment": "oscillationy",
+        "outcome": "unknown",
+        "duration_seconds": null,
+        "reward": null,
+        "new_concepts": 0,
+        "new_laws": 0
+      }
+    ],
+    "checkpoint": {
+      "available": true,
+      "epoch": 692,
+      "general_laws": 12,
+      "valid_law_experiment_pairs": 288,
+      "history_experiments": 27,
+      "history_relations": 9928,
+      "contextual_updates": null
+    }
+  },
+  "contextual": {
+    "epochs_observed": 5,
+    "first_epoch": 1,
+    "last_epoch": 5,
+    "successes": 3,
+    "timeouts_or_errors": 2,
+    "success_rate": 0.6,
+    "analysis_seconds_observed": 29.63600206375122,
+    "mean_analysis_seconds": 5.927200412750244,
+    "median_analysis_seconds": 3.9062020778656006,
+    "total_reward_observed": -4.176697593524261,
+    "mean_reward": -0.835339518704852,
+    "experiment_counts": {
+      "oscillation_r_4": 1,
+      "stringmotion0": 1,
+      "projectile": 1,
+      "oscillationy": 1,
+      "hanging_spring_1": 1
+    },
+    "records": [
+      {
+        "epoch": 1,
+        "experiment": "oscillation_r_4",
+        "outcome": "timeout",
+        "duration_seconds": 10.01051926612854,
+        "reward": -4.047977022255171,
+        "legacy_reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0,
+        "revised_laws": 0,
+        "contradictions": 0,
+        "validations": 0,
+        "maturity": 0.027733174148135697
+      },
+      {
+        "epoch": 2,
+        "experiment": "stringmotion0",
+        "outcome": "success",
+        "duration_seconds": 1.9034194946289062,
+        "reward": 0.3167569515475735,
+        "legacy_reward": 2.0,
+        "new_concepts": 1,
+        "new_laws": 0,
+        "revised_laws": 0,
+        "contradictions": 0,
+        "validations": 0,
+        "maturity": 0.027733174148135697
+      },
+      {
+        "epoch": 3,
+        "experiment": "projectile",
+        "outcome": "timeout",
+        "duration_seconds": 10.010269403457642,
+        "reward": -4.0479765683882825,
+        "legacy_reward": 0.0,
+        "new_concepts": 0,
+        "new_laws": 0,
+        "revised_laws": 0,
+        "contradictions": 0,
+        "validations": 0,
+        "maturity": 0.03076676552365587
+      },
+      {
+        "epoch": 4,
+        "experiment": "oscillationy",
+        "outcome": "success",
+        "duration_seconds": 3.8055918216705322,
+        "reward": 1.652455850069756,
+        "legacy_reward": 11.0,
+        "new_concepts": 5,
+        "new_laws": 0,
+        "revised_laws": 0,
+        "contradictions": 0,
+        "validations": 0,
+        "maturity": 0.03076676552365587
+      },
+      {
+        "epoch": 5,
+        "experiment": "hanging_spring_1",
+        "outcome": "success",
+        "duration_seconds": 3.9062020778656006,
+        "reward": 1.9500431955018642,
+        "legacy_reward": 6.0,
+        "new_concepts": 6,
+        "new_laws": 0,
+        "revised_laws": 0,
+        "contradictions": 0,
+        "validations": 0,
+        "maturity": 0.04579333403081165
+      }
+    ],
+    "checkpoint": {
+      "available": true,
+      "epoch": 4,
+      "general_laws": 0,
+      "valid_law_experiment_pairs": 0,
+      "history_experiments": 2,
+      "history_relations": 67,
+      "contextual_updates": 4
+    }
+  },
+  "comparable_prefix": {
+    "epochs": 5,
+    "baseline": {
+      "epochs_observed": 5,
+      "first_epoch": 1,
+      "last_epoch": 5,
+      "successes": 2,
+      "timeouts_or_errors": 3,
+      "success_rate": 0.4,
+      "analysis_seconds_observed": 8.160223245620728,
+      "mean_analysis_seconds": 4.080111622810364,
+      "median_analysis_seconds": 4.080111622810364,
+      "total_reward_observed": 4.0,
+      "mean_reward": 2.0,
+      "experiment_counts": {
+        "motion0": 1,
+        "pendulum_oscillation_1": 1,
+        "free_fall": 1,
+        "vertical_projectile": 1,
+        "celestial_2_xz": 1
+      },
+      "records": [
+        {
+          "epoch": 1,
+          "experiment": "motion0",
+          "outcome": "success",
+          "duration_seconds": 1.86399245262146,
+          "reward": 4.0,
+          "new_concepts": 2,
+          "new_laws": 1
+        },
+        {
+          "epoch": 2,
+          "experiment": "pendulum_oscillation_1",
+          "outcome": "success",
+          "duration_seconds": 6.296230792999268,
+          "reward": 0.0,
+          "new_concepts": 0,
+          "new_laws": 0
+        },
+        {
+          "epoch": 3,
+          "experiment": "free_fall",
+          "outcome": "timeout",
+          "duration_seconds": null,
+          "reward": null,
+          "new_concepts": 2,
+          "new_laws": 0
+        },
+        {
+          "epoch": 4,
+          "experiment": "vertical_projectile",
+          "outcome": "timeout",
+          "duration_seconds": null,
+          "reward": null,
+          "new_concepts": 2,
+          "new_laws": 0
+        },
+        {
+          "epoch": 5,
+          "experiment": "celestial_2_xz",
+          "outcome": "timeout",
+          "duration_seconds": null,
+          "reward": null,
+          "new_concepts": 0,
+          "new_laws": 0
+        }
+      ]
+    },
+    "contextual": {
+      "epochs_observed": 5,
+      "first_epoch": 1,
+      "last_epoch": 5,
+      "successes": 3,
+      "timeouts_or_errors": 2,
+      "success_rate": 0.6,
+      "analysis_seconds_observed": 29.63600206375122,
+      "mean_analysis_seconds": 5.927200412750244,
+      "median_analysis_seconds": 3.9062020778656006,
+      "total_reward_observed": -4.176697593524261,
+      "mean_reward": -0.835339518704852,
+      "experiment_counts": {
+        "oscillation_r_4": 1,
+        "stringmotion0": 1,
+        "projectile": 1,
+        "oscillationy": 1,
+        "hanging_spring_1": 1
+      },
+      "records": [
+        {
+          "epoch": 1,
+          "experiment": "oscillation_r_4",
+          "outcome": "timeout",
+          "duration_seconds": 10.01051926612854,
+          "reward": -4.047977022255171,
+          "legacy_reward": 0.0,
+          "new_concepts": 0,
+          "new_laws": 0,
+          "revised_laws": 0,
+          "contradictions": 0,
+          "validations": 0,
+          "maturity": 0.027733174148135697
+        },
+        {
+          "epoch": 2,
+          "experiment": "stringmotion0",
+          "outcome": "success",
+          "duration_seconds": 1.9034194946289062,
+          "reward": 0.3167569515475735,
+          "legacy_reward": 2.0,
+          "new_concepts": 1,
+          "new_laws": 0,
+          "revised_laws": 0,
+          "contradictions": 0,
+          "validations": 0,
+          "maturity": 0.027733174148135697
+        },
+        {
+          "epoch": 3,
+          "experiment": "projectile",
+          "outcome": "timeout",
+          "duration_seconds": 10.010269403457642,
+          "reward": -4.0479765683882825,
+          "legacy_reward": 0.0,
+          "new_concepts": 0,
+          "new_laws": 0,
+          "revised_laws": 0,
+          "contradictions": 0,
+          "validations": 0,
+          "maturity": 0.03076676552365587
+        },
+        {
+          "epoch": 4,
+          "experiment": "oscillationy",
+          "outcome": "success",
+          "duration_seconds": 3.8055918216705322,
+          "reward": 1.652455850069756,
+          "legacy_reward": 11.0,
+          "new_concepts": 5,
+          "new_laws": 0,
+          "revised_laws": 0,
+          "contradictions": 0,
+          "validations": 0,
+          "maturity": 0.03076676552365587
+        },
+        {
+          "epoch": 5,
+          "experiment": "hanging_spring_1",
+          "outcome": "success",
+          "duration_seconds": 3.9062020778656006,
+          "reward": 1.9500431955018642,
+          "legacy_reward": 6.0,
+          "new_concepts": 6,
+          "new_laws": 0,
+          "revised_laws": 0,
+          "contradictions": 0,
+          "validations": 0,
+          "maturity": 0.04579333403081165
+        }
+      ]
+    }
+  }
+}

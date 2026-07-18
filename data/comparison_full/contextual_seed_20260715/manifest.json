@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "pid": 3798016,
+  "mode": "contextual",
+  "seed": 20260715,
+  "target_epochs": 1200,
+  "threads": 64,
+  "init_time_limit": 5.0,
+  "time_limit_multiplier": 3.0,
+  "max_time_limit": 3600.0,
+  "time_limit_bias": 5.0,
+  "max_actions": 7,
+  "host": "admin",
+  "platform": "Linux-6.8.0-48-generic-x86_64-with-glibc2.35",
+  "started_at_unix": 1784090462.2779307,
+  "last_resumed_at_unix": 1784091478.7865918,
+  "completed_at_unix": 1784095574.8556619,
+  "wall_seconds": 5112.577731132507
+}

@@ -1,0 +1,47 @@
+# Rust build
+target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.vscode-server/
+
+# IDEA
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs (keep the log the user is viewing)
+logs/
+*.log
+
+# Reports
+reports/
+
+# Large build outputs
+third_party/sym_q/target/
+
+# Misc
+*.pid
+COMPLETE
+\n# Virtual environment\n.venv/
+
+# Large test case outputs (can be regenerated)
+data/test_cases/
+data/test_medium/

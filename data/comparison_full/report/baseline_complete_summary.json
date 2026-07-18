@@ -1,0 +1,21 @@
+{
+  "source": "/data/users/yjh/ai_dirac/reproduced copy/AI-Newton/data/test_cases/example_1/2/2",
+  "epoch": 1210,
+  "experiments": 46,
+  "concepts": 92,
+  "intrinsic_concepts": 6,
+  "conclusions": 52,
+  "general_laws": 52,
+  "valid_law_experiment_pairs": 1415,
+  "law_complexity": 6105.0,
+  "mean_law_complexity": 117.40384615384616,
+  "median_law_complexity": 95.0,
+  "mean_law_coverage": 0.5915551839464883,
+  "median_law_coverage": 0.5652173913043478,
+  "full_coverage_laws": 0,
+  "revised_child_laws": 20,
+  "completion_exclusion_pairs": 1504,
+  "theory_maturity": 0.9999919613548287,
+  "state_hash": "314db511b172332da9f76a8d4015a6dce331073427b13b258176efb67dd4db2c",
+  "history_relations": 183284
+}

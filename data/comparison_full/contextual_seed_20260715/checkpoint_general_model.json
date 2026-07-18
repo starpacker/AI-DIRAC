@@ -1,0 +1,249 @@
+{
+    "general_laws": {
+        "R_01": {
+            "prop": "(1->Particle) |- C_19[1] is zero",
+            "valid_experiments": [
+                "collision_y",
+                "free_fall",
+                "hanging_spring_3",
+                "oblique_projectile_y",
+                "collision_2d",
+                "motion0",
+                "oscillation_x_2",
+                "vertical_projectile",
+                "pendulum_oscillation_2",
+                "gravity",
+                "projectile",
+                "motion0y",
+                "collision_nh",
+                "motion0_3d",
+                "oblique_projectile",
+                "oscillation_x_1",
+                "oscillation",
+                "collision",
+                "hanging_spring_2",
+                "oblique_projectile_x",
+                "hanging_spring_1",
+                "oscillation_x_3",
+                "pendulum_oscillation_1",
+                "motion",
+                "collision_elastic_3body",
+                "celestial_2_xz"
+            ],
+            "father": null
+        }
+    },
+    "completion_exclusion": {
+        "R_01": [
+            "collision_y",
+            "free_fall",
+            "hanging_spring_3",
+            "oblique_projectile_y",
+            "collision_2d",
+            "motion0",
+            "oscillation_x_2",
+            "vertical_projectile",
+            "pendulum_oscillation_2",
+            "gravity",
+            "projectile",
+            "motion0y",
+            "collision_nh",
+            "motion0_3d",
+            "oblique_projectile",
+            "oscillation_x_1",
+            "oscillation",
+            "collision",
+            "hanging_spring_2",
+            "oblique_projectile_x",
+            "hanging_spring_1",
+            "oscillation_x_3",
+            "pendulum_oscillation_1",
+            "motion",
+            "collision_elastic_3body",
+            "celestial_2_xz"
+        ]
+    },
+    "general_service": {
+        "marked_general_laws": [
+            "R_01"
+        ],
+        "diffalg_for_marked_gl": {
+            "R_01": {
+                "free_fall": {
+                    "exp_name": "free_fall",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": {
+                        "ring": {
+                            "derivations": [],
+                            "blocks": []
+                        },
+                        "gb": [
+                            {
+                                "ring": {
+                                    "derivations": [],
+                                    "blocks": []
+                                },
+                                "gb": []
+                            }
+                        ],
+                        "eqs": [],
+                        "ineqs": [
+                            "t_0"
+                        ]
+                    }
+                },
+                "oblique_projectile_y": {
+                    "exp_name": "oblique_projectile_y",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "motion0": {
+                    "exp_name": "motion0",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "vertical_projectile": {
+                    "exp_name": "vertical_projectile",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "projectile": {
+                    "exp_name": "projectile",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "motion0y": {
+                    "exp_name": "motion0y",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "motion0_3d": {
+                    "exp_name": "motion0_3d",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oblique_projectile": {
+                    "exp_name": "oblique_projectile",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oblique_projectile_x": {
+                    "exp_name": "oblique_projectile_x",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "gravity": {
+                    "exp_name": "gravity",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oscillation": {
+                    "exp_name": "oscillation",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "hanging_spring_1": {
+                    "exp_name": "hanging_spring_1",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "pendulum_oscillation_1": {
+                    "exp_name": "pendulum_oscillation_1",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "motion": {
+                    "exp_name": "motion",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "collision_y": {
+                    "exp_name": "collision_y",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "collision_2d": {
+                    "exp_name": "collision_2d",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "collision_nh": {
+                    "exp_name": "collision_nh",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "collision": {
+                    "exp_name": "collision",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "celestial_2_xz": {
+                    "exp_name": "celestial_2_xz",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oscillation_x_1": {
+                    "exp_name": "oscillation_x_1",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "pendulum_oscillation_2": {
+                    "exp_name": "pendulum_oscillation_2",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "hanging_spring_2": {
+                    "exp_name": "hanging_spring_2",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "collision_elastic_3body": {
+                    "exp_name": "collision_elastic_3body",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oscillation_x_2": {
+                    "exp_name": "oscillation_x_2",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "hanging_spring_3": {
+                    "exp_name": "hanging_spring_3",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                },
+                "oscillation_x_3": {
+                    "exp_name": "oscillation_x_3",
+                    "conclusion": {},
+                    "conclusion_id": 0,
+                    "diffalg_ideal": null
+                }
+            }
+        }
+    }
+}
