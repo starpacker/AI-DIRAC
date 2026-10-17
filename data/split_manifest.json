@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "description": "Split manifest — defines training/validation/prediction/falsification/evaluation splits for all experiments",
+  "generated_at": "2026-10-08T00:00:00Z",
+  "split_policy": {
+    "definition": {
+      "description": "Data used to define (discover) a concept or law",
+      "source": "Randomly sampled trajectory from experiment with fixed parameters",
+      "can_be_reused_as_validation": false,
+      "can_be_reused_as_evaluation": false
+    },
+    "test_on_test": {
+      "description": "10 held-out trajectories with different random parameters, used by SpecificModel.test_on_test_experiment()",
+      "source": "experiment.random_settings() + collect_expdata() × 10",
+      "can_be_reused_as_definition": false,
+      "can_be_reused_as_evaluation": true
+    },
+    "experiment_control": {
+      "description": "Controlled variations: change one object or global parameter, re-run",
+      "source": "experiment_control[-1] (global parameter change), experiment_control[id] (object change)",
+      "can_be_reused_as_definition": false,
+      "can_be_reused_as_validation": true
+    },
+    "general_law_validation": {
+      "description": "General laws tested on ALL registered experiments, not just source",
+      "source": "Any experiment in Knowledge.fetch_exps",
+      "is_cross_experiment": true
+    }
+  },
+  "current_violations": {
+    "description": "Current known issues with split management",
+    "issues": [
+      {
+        "severity": "medium",
+        "description": "test_on_test_experiment uses 10 random trajectories from same parameter family as definition data. While parameters differ, the apparatus family is identical.",
+        "mitigation": "Phase 5 will add cross-apparatus-family test experiments."
+      },
+      {
+        "severity": "low",
+        "description": "experiment_control variations use the same simulator. External validation on real data is not performed.",
+        "mitigation": "This is inherent to simulator-based discovery. Real-data validation is a separate phase."
+      },
+      {
+        "severity": "none_audit_only",
+        "description": "No explicit tracking of which data points were used to define which concepts/laws. The system relies on stochastic resampling for test_on_test and experiment_control.",
+        "mitigation": "The provenance tracker (provenance.py) will record definition-data associations as concepts are registered."
+      }
+    ]
+  },
+  "definition_to_concept_map": {
+    "description": "Maps each registered concept to the experiments and data splits that defined it. Populated at runtime.",
+    "entries": []
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "format_version": "1.0",
+  "description": "Prior manifest for AI-DIRAC strict — tracks all physical priors provided to the system",
+  "generated_at": "2026-10-08T00:00:00Z",
+  "allowed_priors": {
+    "computational": [
+      "real_numbers",
+      "finite_arrays",
+      "discrete_events",
+      "time_series",
+      "spatial_grids",
+      "add_sub_mult_div_int_pow",
+      "finite_differences",
+      "numerical_integration",
+      "interpolation",
+      "local_fitting",
+      "learnable_scalar_vector_matrix_tensor",
+      "function_composition",
+      "inverse_mapping",
+      "coordinate_reparameterization",
+      "probability_distributions",
+      "likelihood",
+      "resampling",
+      "neural_network_as_representation_proposer",
+      "symbolic_AST",
+      "program_search",
+      "e-graph",
+      "complexity_and_description_length"
+    ],
+    "metadata_with_explicit_budget": {
+      "TARGET_DIMS": {
+        "type": "dimensional_analysis",
+        "description": "12 physically meaningful SI dimension patterns used for pruning cross-arity combinations",
+        "entries": {
+          "energy": "M*L^2*T^-2",
+          "force": "M*L*T^-2",
+          "momentum": "M*L*T^-1",
+          "pressure": "M*L^-1*T^-2",
+          "power": "M*L^2*T^-3",
+          "gas_constant": "M*L^2*T^-2*Theta^-1*N^-1",
+          "velocity": "L*T^-1",
+          "acceleration": "L*T^-2",
+          "specific_energy": "L^2*T^-2",
+          "action": "M*L^2*T^-1",
+          "frequency": "T^-1",
+          "spring_constant": "M*T^-2"
+        },
+        "usage": "pruning only (rejects dimension-inconsistent candidates)",
+        "ablation_possible": true,
+        "ablation_effect": "Without TARGET_DIMS, cross-arity combiner would test ALL combinations (O(n^4) explosion for n atoms), most of which would be dimensionally meaningless. Total discoveries would drop significantly due to timeout."
+      },
+      "OBSERVABLE_DIMENSIONS": {
+        "type": "dimensional_analysis",
+        "description": "SI dimensions for common observable names (posx, mass, pressure, voltage, etc.)",
+        "usage": "dimension computation for concept and law validation",
+        "ablation_possible": true,
+        "ablation_effect": "Without observable dimensions, concept registration cannot reject dimension-inconsistent concepts. This would allow e.g., posx + temp as a valid concept."
+      },
+      "object_types": {
+        "type": "structural",
+        "description": "ObjType tags (Particle, Spring, Clock, Fixpoint, Rope, Pulley) — structural only, no physics",
+        "usage": "Object identity and interaction topology",
+        "ablation_possible": false,
+        "ablation_effect": "Required for experiment configuration — without object types, the simulator cannot be parameterized."
+      },
+      "geometry_info": {
+        "type": "coordinate_constraints",
+        "description": "Manually registered geometry constraints per experiment (e.g., posx=0 in 1D motion)",
+        "usage": "Differential algebra reduction context",
+        "ablation_possible": true,
+        "ablation_effect": "Without geometry info, the differential ring has more free variables, making reduction less effective. Laws would still be discovered but the reduction step would be less aggressive."
+      }
+    }
+  },
+  "disallowed_priors": [
+    "Einstein_field_equations",
+    "Schrodinger_equation",
+    "Maxwell_equations",
+    "metric_tensor",
+    "geodesic_equation",
+    "curvature_tensor",
+    "wavefunction",
+    "amplitude_as_target",
+    "phase_as_target",
+    "Lorentz_transformation",
+    "Fourier_basis_as_target",
+    "complex_numbers_as_target",
+    "energy_as_search_template",
+    "momentum_as_search_template",
+    "mass_as_search_term_in_symbolic_regression",
+    "target_specific_combinatorial_rules",
+    "target_specific_experiment_selection_rules"
+  ],
+  "naming_policy": {
+    "physical_names_allowed_for": ["reports", "data_provenance", "result_interpretation", "benchmark_comparison", "offline_evaluator_truth_labels"],
+    "physical_names_disallowed_for": ["candidate_generation", "ranking", "reward", "experiment_selection", "verification"],
+    "name_invariance_required": true,
+    "metadata_ablation_required": true
+  }
+}

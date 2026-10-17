@@ -1,0 +1,557 @@
+{
+  "format_version": "1.0",
+  "channels": [
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.random.normal(0, error, t_num)",
+      "dependencies": [],
+      "experiment_name": "free_fall_1",
+      "accessible_to_discovery": true,
+      "justification": "Lateral position \u2014 always near zero in 1D fall",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.random.normal(0, error, t_num)",
+      "dependencies": [],
+      "experiment_name": "free_fall_1",
+      "accessible_to_discovery": true,
+      "justification": "Lateral position \u2014 always near zero",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "odeint(f, [z0, vz0], t) + noise",
+      "dependencies": [],
+      "experiment_name": "free_fall_1",
+      "accessible_to_discovery": true,
+      "justification": "Vertical position from ODE integration",
+      "extra": {}
+    },
+    {
+      "channel_name": "mass",
+      "origin": "CONTROL",
+      "generation_method": "exp_config.get_obj_para('o1', 'm') \u2014 object intrinsic",
+      "dependencies": [],
+      "experiment_name": "free_fall_1",
+      "accessible_to_discovery": true,
+      "justification": "Object intrinsic mass, constant per trajectory",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.arange(0, t_end, step) + noise",
+      "dependencies": [],
+      "experiment_name": "free_fall_1",
+      "accessible_to_discovery": true,
+      "justification": "Clock time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "ODE integration \u2014 obj2 position",
+      "dependencies": [],
+      "experiment_name": "collision_1d_elastic",
+      "accessible_to_discovery": true,
+      "justification": "Two objects each have posx; here tracking obj 1's",
+      "extra": {}
+    },
+    {
+      "channel_name": "pressure",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Simulated pressure sensor",
+      "dependencies": [],
+      "experiment_name": "isothermal",
+      "accessible_to_discovery": true,
+      "justification": "Pressure gauge reading in gas chamber",
+      "extra": {}
+    },
+    {
+      "channel_name": "volume",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Simulated volume from piston position",
+      "dependencies": [],
+      "experiment_name": "isothermal",
+      "accessible_to_discovery": true,
+      "justification": "Volume derived from piston \u00d7 area",
+      "extra": {}
+    },
+    {
+      "channel_name": "temp",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Simulated thermometer",
+      "dependencies": [],
+      "experiment_name": "isothermal",
+      "accessible_to_discovery": true,
+      "justification": "Gas temperature measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "amount",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Known amount of gas (moles)",
+      "dependencies": [],
+      "experiment_name": "isothermal",
+      "accessible_to_discovery": true,
+      "justification": "Amount of substance in container",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.random.normal(0, error, t_num)",
+      "dependencies": [],
+      "experiment_name": "pressure_discovery",
+      "accessible_to_discovery": true,
+      "justification": "Lateral position",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.random.normal(0, error, t_num)",
+      "dependencies": [],
+      "experiment_name": "pressure_discovery",
+      "accessible_to_discovery": true,
+      "justification": "Lateral position",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Numerical integration + noise",
+      "dependencies": [],
+      "experiment_name": "pressure_discovery",
+      "accessible_to_discovery": true,
+      "justification": "Piston vertical position",
+      "extra": {}
+    },
+    {
+      "channel_name": "mass",
+      "origin": "CONTROL",
+      "generation_method": "exp_config.get_obj_para('piston', 'm')",
+      "dependencies": [],
+      "experiment_name": "pressure_discovery",
+      "accessible_to_discovery": true,
+      "justification": "Piston intrinsic mass",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "np.arange + noise",
+      "dependencies": [],
+      "experiment_name": "pressure_discovery",
+      "accessible_to_discovery": true,
+      "justification": "Clock time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_basic",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_basic",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_basic",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_basic",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_envelope",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_envelope",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_envelope",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "young_double_slit_envelope",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "michelson_fringes",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "michelson_fringes",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "michelson_fringes",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "michelson_fringes",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "fabry_perot_airy",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "fabry_perot_airy",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "fabry_perot_airy",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "fabry_perot_airy",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "unequal_amplitude_interference",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "unequal_amplitude_interference",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "unequal_amplitude_interference",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "unequal_amplitude_interference",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "advanced_ray",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "advanced_ray",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "advanced_ray",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "advanced_ray",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "diffraction",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "diffraction",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "diffraction",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "diffraction",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "fermat_interface",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "fermat_interface",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "fermat_interface",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "fermat_interface",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "imaging",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "imaging",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "imaging",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "imaging",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    },
+    {
+      "channel_name": "posx",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector scan position (linear_scan)",
+      "dependencies": [],
+      "experiment_name": "wave_particle",
+      "accessible_to_discovery": true,
+      "justification": "Physical detector coordinate \u2014 legitimate measurement",
+      "extra": {}
+    },
+    {
+      "channel_name": "posy",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Detector reading / intensity (photodetector output)",
+      "dependencies": [],
+      "experiment_name": "wave_particle",
+      "accessible_to_discovery": true,
+      "justification": "Photodetector voltage/intensity \u2014 legitimate RAW_SENSOR",
+      "extra": {}
+    },
+    {
+      "channel_name": "posz",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Background noise channel",
+      "dependencies": [],
+      "experiment_name": "wave_particle",
+      "accessible_to_discovery": true,
+      "justification": "Noise only \u2014 no optical phase/visibility leaked",
+      "extra": {}
+    },
+    {
+      "channel_name": "t",
+      "origin": "RAW_SENSOR",
+      "generation_method": "Clock time",
+      "dependencies": [],
+      "experiment_name": "wave_particle",
+      "accessible_to_discovery": true,
+      "justification": "Measurement time",
+      "extra": {}
+    }
+  ],
+  "dependency_graph": {},
+  "violations": []
+}
